@@ -144,20 +144,20 @@ p{
     transition: .3s;
 }
 
-.social-media i:nth-child(1){
+.social-media .facebook i{
     color: #eee;
     background: #1822dd;
     border-radius: 50%;
     border: 2px solid #eee;
 }
 
-.social-media i:nth-child(2){
+.social-media .google i{
     color: #eee;
     background: #f00;
     border-radius: 50%;
     border: 2px solid #eee;
 }
-.social-media i:nth-child(3){
+.social-media .twitter i{
     color: #eee;
     background: #098dc1;
     border-radius: 50%;
@@ -233,17 +233,27 @@ p{
     overflow:hidden;
     position: relative;
 }
+.container3_body{
+    background: linear-gradient(75deg ,#043c96,30% ,#aa44e5);
+}
 .container3 .welcome_content h1{
     font-size: 35px;
 }
 
 .container3 .welcome_content p{
     font-size: 10px;
-    margin-left: 30px;
+    margin-left: 30px;  
 }
 .welcome_content img{
     width: 150px;
     margin-bottom: 60px;
+}
+.title{
+    color: #eee;
+}
+.para{
+    color: #eee;
+    font-weight: 100;
 }
 .container4{
     height: 300px;
