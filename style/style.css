@@ -489,11 +489,13 @@ p{
     }
     .social-media i{
         font-size: 18px;
-       
     }
     .RegisteBtn a{
         text-decoration: none;
         font-size: 11px;
+    }
+    .form_box{
+        margin-left: 14%;
     }
 
 }
