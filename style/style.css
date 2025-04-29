@@ -197,10 +197,36 @@ p{
 .RegisteBtn a{
     text-decoration: none;
     font-size: 13px;
-    color: gray;
+    color: rgb(50, 46, 46);
     margin-top: 0;
 }
+.buttons{
+    display: flex;
+    justify-content:space-evenly;
+}
+.buttons .btn1{
+    width: 150px;
+}
+.buttons .btn2{
+    width: 150px;
+}
 .btn1{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background: linear-gradient(45deg ,#098dc1,60% ,#f417de);
+    font-size: 19px;
+    font-weight: 500;
+    color: #eee;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+    overflow: hidden;
+}
+.btn2{
     width: 100%;
     height: 40px;
     margin-top: 20px;
@@ -220,6 +246,10 @@ p{
     text-decoration: none;
     color: white;
 }
+.btn2 a{
+    text-decoration: none;
+    color: white;
+}
 .container3{
     height: 600px;
     width: 750px;
@@ -236,6 +266,7 @@ p{
 .container3_body{
     background: linear-gradient(75deg ,#043c96,30% ,#aa44e5);
 }
+
 .container3 .welcome_content h1{
     font-size: 35px;
 }
@@ -256,7 +287,7 @@ p{
     font-weight: 100;
 }
 .container4{
-    height: 300px;
+    height: 350px;
     width: 350px;
     line-height: 0px;
     border-radius: 15px;
@@ -267,6 +298,13 @@ p{
     flex-direction: column;
     overflow:hidden;
     position: relative;
+}
+
+.forgot_password .forgot_heading
+{
+    text-align: center;
+    color: #857e7e;
+    font-weight: 400;
 }
 .forgot_password h2
 {
@@ -287,9 +325,51 @@ p{
     padding: 10px;
 }
 
-.forgot_password input::placeholder
-{
-    text-align: center;
+.forgot_btns{
+    display: flex;
+    gap: 20px;
+}
+
+.clear{
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background: linear-gradient(45deg ,#098dc1,60% ,#f417de);
+    font-size: 19px;
+    font-weight: 500;
+    color: #eee;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.clear a{
+    color: white;
+    text-decoration: none;
+}
+
+.submit a{
+    color: white;
+    text-decoration: none;
+}
+
+.submit{
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background: linear-gradient(45deg ,#098dc1,60% ,#f417de);
+    font-size: 19px;
+    font-weight: 500;
+    color: #eee;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+    overflow: hidden;
 }
 
 .forgot_password{
@@ -305,6 +385,9 @@ p{
     .container1{
         height: 800px;
         width: 480px;
+    }
+    .container4{
+        height: 300px;
     }
     h2{
         font-size: 26px;
@@ -362,6 +445,13 @@ p{
         height: 600px;
         width: 310px;
     }
+    .container4{
+        height: 250px;
+        width: 300px;
+    }
+    .forgot_password .forgot_heading{
+        margin-bottom: 40px;
+    }
     h2{
         font-size: 22px;
     }
@@ -377,9 +467,8 @@ p{
         font-size: 12px;
     }
     .input-box i{
- 
         font-size: 16px;
-
+        margin-top: 5px;
     }
     input::placeholder{
         font-size: 10px;
